@@ -9,7 +9,7 @@ mongo = PyMongo(app)
 
 CORS(app)
 
-# se crean las colecciones cuando son llamadas mongo es basado en colecciones
+# se crean las colecciones cuando son llamadas mongo ces basado en colecciones
 db = mongo.db.users
 
 
